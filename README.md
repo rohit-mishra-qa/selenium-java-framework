@@ -1,29 +1,16 @@
-<<<<<<< HEAD
-# selenium-java-framework
-Selenium Java TestNG Automation Framework with POM Design Pattern
-=======
-# Selenium Java Automation Framework
+# Selenium Java TestNG Automation Framework with POM Design Pattern
 
-## Tech Stack
-- Java 21
-- Selenium WebDriver 4.18.1
-- TestNG 7.9.0
-- Maven
-- WebDriverManager
+## Selenium Java Automation Framework
 
-## Framework Structure
-- Page Object Model (POM) Design Pattern
-- Separate pages and tests packages
-- BeforeMethod/AfterMethod for browser setup
+A test automation framework built using:
+- Java
+- Selenium WebDriver
+- TestNG
+- Cucumber (BDD)
+- Page Object Model (POM) design pattern
 
-## Test Cases
-- Login with valid credentials (Positive Test)
-- Login with invalid credentials (Negative Test)
+## Features Covered
+- Login (positive and negative scenarios) - SauceDemo.com
 
 ## How to Run
-mvn test
-
-## Author
-Rohit Mishra | Senior QA Engineer
-GitHub: github.com/rohit-mishra-qa
->>>>>>> 9b9006bfbf324fbd5d7ba00fdcd6840894f86495
+Run `TestRunner.java` located at `src/test/java/runner/TestRunner.java`
